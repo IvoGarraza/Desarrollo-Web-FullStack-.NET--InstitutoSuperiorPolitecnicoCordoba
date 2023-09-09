@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AndesDean</title>
+    <link rel="stylesheet" type="text/css" href="./index.css"></link>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+      .container{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: medium;
+        width: 100%;
+        height: 100vh;
+        /* display: flex; */
+        flex-direction: column;
+      }
+
+      .containerServices{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      servicesContainer{
+        width: 100%;
+      }
+      .itemsWrap{
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        row-gap: 0.5rem;
+        column-gap: 3rem;
+      }
+      .items{
+        --tw-bg-opacity: 1;
+    background-color: rgb(5 42 73 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    --tw-shadow: 8px 4px 3px 1px #718096;
+    --tw-shadow-colored: 8px 4px 3px 1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+      }
+      .items:hover{
+        background: #154a77;
+    
+      }
+
+    </style>
+</head>
+<div class="container">
+    <div class="containerServices">
+        <div class="servicesContainer">
+          <div class="itemsWrap">
+            <div class="items">Structural Design</div>
+            <div class="items">Bim Management</div>
+            <div class="items">Mep Engineering</div>
+            <div class="items">3d visualization</div>
+            <div class="items">Desingn development</div>
+            <div class="items">Contruction Documents</div>
+            <div class="items">Composition and <br/>Listing of Materials</div>
+            <div class="items">Projects and <br/>Techcnical Maganement</div>
+            <div class="items">Consultant Coordination <br/>and Support</div>
+            <div class="items">Professional Trainning</div>
+          </div>
+        </div>
+    </div>
+</div>
+</html>
